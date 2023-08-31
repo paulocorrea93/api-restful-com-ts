@@ -8,6 +8,9 @@ import config from "config";
 
 import router from "./router";
 
+//Logger
+import Logger from "../config/logger";
+
 //banco de dados
 import db from "../config/db";
 
@@ -22,5 +25,5 @@ const port = config.get<number>("port");
 
 app.listen(port, async () => {
   await db();
-  console.log(`conectado a porta:: ${port}`);
+  Logger.info(`conectado a porta:: ${port}`);
 });
