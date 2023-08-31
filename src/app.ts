@@ -1,12 +1,23 @@
-import express from 'express'
-import config from 'config'
+import express from "express";
+import config from "config";
 
-const app = express()
+//rotas
 
-app.use(express())
+import router from "./router";
 
-const port = config.get<number>("port")
+//banco de dados
+import db from "../config/db";
+
+const app = express();
+
+app.use(express());
+
+app.use("/api/", router);
+
+//app port
+const port = config.get<number>("port");
 
 app.listen(port, async () => {
-    console.log(`conectado a porta: ${port}`)
-})
+  await db();
+  console.log(`conectado a porta:: ${port}`);
+});
