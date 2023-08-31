@@ -34,3 +34,7 @@
 2023-08-31 09:49:06:496 - [32minfo[39m: [32mconectado a porta:: 3000[39m
 2023-08-31 11:40:46:4046 - [32minfo[39m: [32mConectado ao banco de dados.[39m
 2023-08-31 11:40:46:4046 - [32minfo[39m: [32mconectado a porta:: 3000[39m
+2023-08-31 11:40:57:4057 - [32minfo[39m: [32mConectado ao banco de dados.[39m
+2023-08-31 11:40:57:4057 - [32minfo[39m: [32mconectado a porta:: 3000[39m
+2023-08-31 11:41:10:4110 - [35mhttp[39m: [35mGET /api/test 200 12 - response-time ms[39m
+[35m[39m
