@@ -14,9 +14,14 @@ import Logger from "../config/logger";
 //banco de dados
 import db from "../config/db";
 
+//middlewares
+import morganMiddleware from "./middleware/morganMiddleware";
+
 const app = express();
 
 app.use(express());
+
+app.use(morganMiddleware)
 
 app.use("/api/", router);
 
