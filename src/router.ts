@@ -20,4 +20,4 @@ export default router
   .get("/movie/:id", findMovieById)
   .get("/movie", getAllMovies)
   .delete("/movie/:id", removeMovie)
-  .patch("/movie/:id", updateMovie);
+  .patch("/movie/:id", updateMovie, validate, createMovie);
