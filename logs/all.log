@@ -212,3 +212,21 @@
 2023-09-01 15:06:27:627 - [32minfo[39m: [32mconectado a porta:: 3000[39m
 2023-09-01 15:06:33:633 - [35mhttp[39m: [35mGET /api/movie/64f22df74141a724faac08ea 404 30 - response-time ms[39m
 [35m[39m
+2023-09-01 15:08:22:822 - [32minfo[39m: [32mConectado ao banco de dados.[39m
+2023-09-01 15:08:22:822 - [32minfo[39m: [32mconectado a porta:: 3000[39m
+2023-09-01 15:08:26:826 - [35mhttp[39m: [35mGET /api/movie/64f22df74141a724faac08ea 200 416 - response-time ms[39m
+[35m[39m
+2023-09-01 15:15:24:1524 - [32minfo[39m: [32mConectado ao banco de dados.[39m
+2023-09-01 15:15:24:1524 - [32minfo[39m: [32mconectado a porta:: 3000[39m
+2023-09-01 15:16:14:1614 - [32minfo[39m: [32mConectado ao banco de dados.[39m
+2023-09-01 15:16:15:1615 - [32minfo[39m: [32mconectado a porta:: 3000[39m
+2023-09-01 15:16:23:1623 - [32minfo[39m: [32mConectado ao banco de dados.[39m
+2023-09-01 15:16:23:1623 - [32minfo[39m: [32mconectado a porta:: 3000[39m
+2023-09-01 15:16:42:1642 - [35mhttp[39m: [35mGET /api/movie 200 418 - response-time ms[39m
+[35m[39m
+2023-09-01 15:17:07:177 - [35mhttp[39m: [35mPOST /api/movie 201 421 - response-time ms[39m
+[35m[39m
+2023-09-01 15:17:18:1718 - [35mhttp[39m: [35mPOST /api/movie 201 418 - response-time ms[39m
+[35m[39m
+2023-09-01 15:17:24:1724 - [35mhttp[39m: [35mGET /api/movie 200 1259 - response-time ms[39m
+[35m[39m
