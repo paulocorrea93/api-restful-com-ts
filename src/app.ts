@@ -19,7 +19,7 @@ import morganMiddleware from "./middleware/morganMiddleware";
 
 const app = express();
 
-app.use(express());
+app.use(express.json());
 
 app.use(morganMiddleware)
 
