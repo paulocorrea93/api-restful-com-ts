@@ -148,3 +148,11 @@
 2023-09-01 13:01:44:144 - [32minfo[39m: [32mconectado a porta:: 3000[39m
 2023-09-01 13:01:46:146 - [35mhttp[39m: [35mPOST /api/movie 201 131 - response-time ms[39m
 [35m[39m
+2023-09-01 13:03:40:340 - [32minfo[39m: [32mConectado ao banco de dados.[39m
+2023-09-01 13:03:40:340 - [32minfo[39m: [32mconectado a porta:: 3000[39m
+2023-09-01 13:03:43:343 - [35mhttp[39m: [35mPOST /api/movie 201 264 - response-time ms[39m
+[35m[39m
+2023-09-01 13:03:59:359 - [35mhttp[39m: [35mPOST /api/movie 201 155 - response-time ms[39m
+[35m[39m
+2023-09-01 13:47:07:477 - [32minfo[39m: [32mConectado ao banco de dados.[39m
+2023-09-01 13:47:07:477 - [32minfo[39m: [32mconectado a porta:: 3000[39m
